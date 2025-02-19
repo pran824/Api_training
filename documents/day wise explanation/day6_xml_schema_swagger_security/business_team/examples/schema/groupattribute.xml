@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<EMPLOYEE DEPARTMENT="j2ee" DESIGNATION="project">
+	
+		<FIRSTNAME>steve</FIRSTNAME>
+		<LASTNAME>shaw</LASTNAME>
+		
+</EMPLOYEE>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns:Employees xmlns:ns="http://example.com/employees"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="http://example.com/employees employees.xsd">
+    <ns:Employee>
+        <ns:EmployeeID>101</ns:EmployeeID>
+        <ns:Name>
+            <ns:FirstName>John</ns:FirstName>
+            <ns:LastName>Doe</ns:LastName>
+        </ns:Name>
+        <ns:Position>Software Engineer</ns:Position>
+        <ns:Department>IT</ns:Department>
+        <ns:Salary>75000</ns:Salary>
+        <ns:DateOfJoining>2020-05-15</ns:DateOfJoining>
+    </ns:Employee>
+    <ns:Employee>
+        <ns:EmployeeID>102</ns:EmployeeID>
+        <ns:Name>
+            <ns:FirstName>Jane</ns:FirstName>
+            <ns:LastName>Smith</ns:LastName>
+        </ns:Name>
+        <ns:Position>HR Manager</ns:Position>
+        <ns:Department>Human Resources</ns:Department>
+        <ns:Salary>80000</ns:Salary>
+        <ns:DateOfJoining>2018-03-10</ns:DateOfJoining>
+    </ns:Employee>
+</ns:Employees>

@@ -1,0 +1,12 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:element name="EMPLOYEE" type="emptype"/>
+	<xsd:complexType name="emptype">
+		<xsd:all>
+			<xsd:element name="FIRSTNAME" type="xsd:string" />
+			<xsd:element name="LASTNAME" type="xsd:string" />
+			<xsd:element name="DEPARTMENT" type="xsd:string" />
+			<xsd:element name="DESIGNATION" type="xsd:string" />
+		</xsd:all>
+	</xsd:complexType>
+	
+</xsd:schema>
